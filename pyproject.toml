@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pilot_sdk"
+version = "1.0.0"
+description = ""
+authors = ["Indoc Research <admin@indocresearch.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.27.1"
+pytest = "^7.0.1"
+python-json-logger = "^2.0.2"
+PyJWT = "^2.3.0"
+python-socketio = {extras = ["client"], version = "^5.5.2"}
+pydantic = "1.8.2"
+starlette = "^0.18.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
